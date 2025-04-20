@@ -1,0 +1,55 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+@font-face {
+    font-family: "Peyda-Regular";
+    src: url("./fonts/Peyda-Regular.ttf") format("truetype");
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: "Peyda-Medium";
+    src: url("./fonts/Peyda-Medium.ttf") format("truetype");
+    font-weight: 500;
+  }
+  
+  @font-face {
+    font-family: "Peyda-SemiBold";
+    src: url("./fonts/Peyda-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+  }
+  
+  @font-face {
+    font-family: "Peyda-Bold";
+    src: url("./fonts/Peyda-Bold.ttf") format("truetype");
+    font-weight: 700;
+  }
+  
+  @font-face {
+    font-family: "Peyda-ExtraBold";
+    src: url("./fonts/Peyda-ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+  }
+  
+  @font-face {
+    font-family: "Peyda-Black";
+    src: url("./fonts/Peyda-Black.ttf") format("truetype");
+    font-weight: 900;
+  }
+  
